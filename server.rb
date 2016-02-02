@@ -26,6 +26,26 @@ get '/data.json' do
         night_icon_url: url('/images/role_icon_night.png'),
         app_store_url: 'https://itunes.apple.com/us/app/role-a-role-playing-party-game/id933599454?mt=8',
       },
+
+      # Weird Catalog
+      {
+        title: 'Weird Catalog',
+        short_title: 'Weird Catalog',
+        index_title: 'Weird Catalog',
+        day_title_position: {
+          iphone: {x: 0.1466, y: 0.1499},
+        },
+        night_title_position: {
+          iphone: {x: 0.1466, y: 0.1499},
+        },
+        day_description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.',
+        night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
+        day_photo_url: url('/images/role_day_01.jpg'),
+        night_photo_url: url('/images/role_day_01.jpg'),
+        day_icon_url: url('/images/role_icon_day.png'),
+        night_icon_url: url('/images/role_icon_night.png'),
+        website_url: 'http://weirdcatalog.com'
+      },
     ],
     team: [
       # Logan

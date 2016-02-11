@@ -20,10 +20,10 @@ get '/data.json' do
         },
         day_description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.',
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
-        day_photo_url: url('/images/role_day_01.jpg'),
-        night_photo_url: url('/images/role_day_01.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_photo_url: url('/images/role_day.jpg'),
+        night_photo_url: url('/images/role_night.jpg'),
+        day_icon_url: url('/images/role_icon.jpg'),
+        night_icon_url: url('/images/role_icon.jpg'),
         app_store_url: 'https://itunes.apple.com/us/app/role-a-role-playing-party-game/id933599454?mt=8',
       },
 
@@ -40,11 +40,11 @@ get '/data.json' do
         },
         day_description: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.',
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
-        day_photo_url: url('/images/role_day_01.jpg'),
-        night_photo_url: url('/images/role_day_01.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
-        website_url: 'http://weirdcatalog.com'
+        day_photo_url: url('/images/weird_catalog_day.jpg'),
+        night_photo_url: url('/images/weird_catalog_night.jpg'),
+        day_icon_url: url('/images/weird_catalog_icon.jpg'),
+        night_icon_url: url('/images/weird_catalog_icon.jpg'),
+        website_url: 'http://www.weirdcatalog.com'
       },
     ],
     team: [
@@ -63,8 +63,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/logan_day_01.jpg'),
         night_photo_url: url('/images/logan_night_01.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/logan_day_icon.jpg'),
+        night_icon_url: url('/images/logan_night_icon.jpg'),
       },
       {
         title: 'Logan Dwight',
@@ -80,8 +80,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/logan_day_02.jpg'),
         night_photo_url: url('/images/logan_night_02.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/logan_day_icon.jpg'),
+        night_icon_url: url('/images/logan_night_icon.jpg'),
       },
       {
         title: 'Logan Dwight',
@@ -97,8 +97,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/logan_day_03.jpg'),
         night_photo_url: url('/images/logan_night_03.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/logan_day_icon.jpg'),
+        night_icon_url: url('/images/logan_night_icon.jpg'),
       },
 
       # Ian
@@ -116,8 +116,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/ian_day_01.jpg'),
         night_photo_url: url('/images/ian_night_01.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/ian_day_icon.jpg'),
+        night_icon_url: url('/images/ian_night_icon.jpg'),
       },
       {
         title: 'Ian Hirschfeld',
@@ -133,8 +133,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/ian_day_02.jpg'),
         night_photo_url: url('/images/ian_night_02.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/ian_day_icon.jpg'),
+        night_icon_url: url('/images/ian_night_icon.jpg'),
       },
       {
         title: 'Ian Hirschfeld',
@@ -150,8 +150,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/ian_day_03.jpg'),
         night_photo_url: url('/images/ian_night_03.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/ian_day_icon.jpg'),
+        night_icon_url: url('/images/ian_night_icon.jpg'),
       },
 
       # Jarreau
@@ -169,8 +169,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/jarreau_day_01.jpg'),
         night_photo_url: url('/images/jarreau_night_01.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/jarreau_day_icon.jpg'),
+        night_icon_url: url('/images/jarreau_night_icon.jpg'),
       },
       {
         title: 'Jarreau Bowen',
@@ -186,8 +186,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/jarreau_day_02.jpg'),
         night_photo_url: url('/images/jarreau_night_02.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/jarreau_day_icon.jpg'),
+        night_icon_url: url('/images/jarreau_night_icon.jpg'),
       },
       {
         title: 'Jarreau Bowen',
@@ -203,8 +203,8 @@ get '/data.json' do
         night_description: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.',
         day_photo_url: url('/images/jarreau_day_03.jpg'),
         night_photo_url: url('/images/jarreau_night_03.jpg'),
-        day_icon_url: url('/images/role_icon_day.png'),
-        night_icon_url: url('/images/role_icon_night.png'),
+        day_icon_url: url('/images/jarreau_day_icon.jpg'),
+        night_icon_url: url('/images/jarreau_night_icon.jpg'),
       },
     ]
   }.to_json

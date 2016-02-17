@@ -1,8 +1,11 @@
 require 'dotenv'
 require 'json'
-require 'sinatra'
 
 Dotenv.load
+
+get '/' do
+  erb :home
+end
 
 get '/data.json' do
   {

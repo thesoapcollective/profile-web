@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  outline: inherit;
+}
+
+body {
+  font-family: 'futura-pt', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.page-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  background: url('../images/profile_logo.png') no-repeat center center;
+  background-size: contain;
+}
+
+.itunes {
+  width: 200px;
+  height: 80px;
+  margin: 0 auto 50px;
+  display: block;
+  background: url('../images/app_store_badge.svg') no-repeat center center;
+  background-size: contain;
+}

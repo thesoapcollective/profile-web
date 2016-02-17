@@ -20,3 +20,7 @@
 /config/database.yml
 /spec/examples.txt
 dump.rdb
+
+*.swp
+*.rbc
+*.sass-cache

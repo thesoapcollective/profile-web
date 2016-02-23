@@ -149,7 +149,7 @@ get '/data.json' do
         night_title_position: {
           iphone: {x: 0.15, y: 0.32},
         },
-        day_description: "617.971.7679\nian@thesoapcollective.com",
+        day_description: "857.288.8531\nian@thesoapcollective.com",
         night_description: "Instagram: ianhirschfeld\nTwitter: @ianhirschfeld\nMedium: @ianhirschfeld",
         day_photo_url: url('/images/ian_day_03.jpg'),
         night_photo_url: url('/images/ian_night_03.jpg'),

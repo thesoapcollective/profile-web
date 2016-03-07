@@ -76,10 +76,10 @@ get '/data.json' do
         short_title: 'Phoodie',
         index_title: 'Phoodie',
         day_title_position: {
-          iphone: {x: 0.08, y: 0.13},
+          iphone: {x: 0.07, y: 0.13},
         },
         night_title_position: {
-          iphone: {x: 0.08, y: 0.13},
+          iphone: {x: 0.07, y: 0.13},
         },
         day_description: "Finally, a social network for foodies everywhere. Phoodie was already a great idea, we just helped make it better. Coming on board early in the process, Soap helped Phoodie take their production prototype and make it consumer-ready. We developed a scalable backend, mobile API, and worked closely with their team on app design touch-ups. Our partnership with Phoodie continues, with Soap stepping in to assist with development updates and feature releases. Come dine with us!",
         night_description: "Brooklyn Earick, the founder of Phoodie, has had one of the most ecclectic creative careers of anyone we've ever worked with. He got his start signing as a world-tour DJ, playing with artists such as Steve Aoki. From there, he went on to become an engineer at NASA, where he worked for a number of years before leaving to strike out on his own. Phoodie is his latest project, and we could not be happier to have helped bring it to life!",

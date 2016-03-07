@@ -10,6 +10,26 @@ end
 get '/data.json' do
   {
     work: [
+      # VR Love Letters
+      {
+        title: 'VR Love Letters',
+        short_title: 'VR Love Letters',
+        index_title: 'VR Love Letters',
+        day_title_position: {
+          iphone: {x: 0.14, y: 0.88},
+        },
+        night_title_position: {
+          iphone: {x: 0.1, y: 0.91},
+        },
+        day_description: "VR has the power to transport you, to take you to places you’ve never been. It can show you perspectives you’ve never seen. We want to harness that power to connect people, sharing the places they call home. VR Love Letters is a tribute to the places we love the most. See the world through someone else’s eyes. With 360 video and VR, we can do more than just see a place: we can feel its warmth and share its love.",
+        night_description: "The original inspiration for VR Love Letters actually came from Twitter. At the studio, we kept having discussions around all the negative articles people post on social media about the places they live. Some are political, some are social issues, some are economic, but they all share the same cynical tone. We wondered: what can we do to bring some joy to the conversation? How can we remind people of all the good in these places? As the conversation went on, VR Love Letters was born.",
+        day_photo_url: url('/images/vrll_day.jpg'),
+        night_photo_url: url('/images/vrll_night.jpg'),
+        day_icon_url: url('/images/vrll_icon.jpg'),
+        night_icon_url: url('/images/vrll_icon.jpg'),
+        website_url: 'http://www.vrloveletters.com',
+      },
+
       # Role
       {
         title: 'Role - A Storytelling Party Game!',
@@ -48,6 +68,26 @@ get '/data.json' do
         day_icon_url: url('/images/weird_catalog_icon.jpg'),
         night_icon_url: url('/images/weird_catalog_icon.jpg'),
         website_url: 'http://www.weirdcatalog.com'
+      },
+
+      # Phoodie
+      {
+        title: 'Phoodie',
+        short_title: 'Phoodie',
+        index_title: 'Phoodie',
+        day_title_position: {
+          iphone: {x: 0.1, y: 0.13},
+        },
+        night_title_position: {
+          iphone: {x: 0.1, y: 0.13},
+        },
+        day_description: "Finally, a social network for foodies everywhere. Phoodie was already a great idea, we just helped make it better. Coming on board early in the process, Soap helped Phoodie take their production prototype and make it consumer-ready. We developed a scalable backend, mobile API, and worked closely with their team on app design touch-ups. Our partnership with Phoodie continues, with Soap stepping in to assist with development updates and feature releases. Come dine with us!",
+        night_description: "Brooklyn Earick, the founder of Phoodie, has had one of the most ecclectic creative careers of anyone we've ever worked with. He got his start signing as a world-tour DJ, playing with artists such as Steve Aoki. From there, he went on to become an engineer at NASA, where he worked for a number of years before leaving to strike out on his own. Phoodie is his latest project, and we could not be happier to have helped bring it to life!",
+        day_photo_url: url('/images/phoodie_day.jpg'),
+        night_photo_url: url('/images/phoodie_night.jpg'),
+        day_icon_url: url('/images/phoodie_icon.jpg'),
+        night_icon_url: url('/images/phoodie_icon.jpg'),
+        app_store_url: 'https://itunes.apple.com/us/app/phoodie/id990159611?ls=1&mt=8',
       },
     ],
     team: [

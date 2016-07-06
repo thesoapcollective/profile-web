@@ -16,10 +16,10 @@ get '/data.json' do
         short_title: 'Never Bout Us',
         index_title: 'Never Bout Us',
         day_title_position: {
-          iphone: {x: 0.96, y: 0.06},
+          iphone: {x: 0.06, y: 0.96},
         },
         night_title_position: {
-          iphone: {x: 0.89, y: 0.11},
+          iphone: {x: 0.11, y: 0.89},
         },
         day_description: "We worked with artist Cameron Grey to create an immersive 360 video for the song \"Never Bout Us\". The audience follows Cameron as he relives the memories of a brutal breakup. We also designed the website, app, social media, and press materials to accompany the song and video release. Included in this was a series of limited-run boxes that contained a custom-branded VR viewer, thank you note, production credits, and 1-of-a-kind instant photos from the video shoot. Cameron then hand-wrote the lyrics inside every box, ensuring that each one was unique.",
         night_description: "During the filming of Never Bout Us, the actors really pushed themselves to create a tense and realistic fight. Between the yelling and the broken glass, we attracted the attention of people in the building above us. At one point, someone frantically came running down to the basement because they \"thought someone was getting murdered\". They were surprised and relieved to see our full production team set up filming a scene.",

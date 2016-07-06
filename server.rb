@@ -16,7 +16,7 @@ get '/data.json' do
         short_title: 'Never Bout Us',
         index_title: 'Never Bout Us',
         day_title_position: {
-          iphone: {x: 0.06, y: 0.96},
+          iphone: {x: 0.06, y: 0.93},
         },
         night_title_position: {
           iphone: {x: 0.11, y: 0.89},
@@ -25,8 +25,8 @@ get '/data.json' do
         night_description: "During the filming of Never Bout Us, the actors really pushed themselves to create a tense and realistic fight. Between the yelling and the broken glass, we attracted the attention of people in the building above us. At one point, someone frantically came running down to the basement because they \"thought someone was getting murdered\". They were surprised and relieved to see our full production team set up filming a scene.",
         day_photo_url: url('/images/nbu_day.jpg'),
         night_photo_url: url('/images/nbu_night.jpg'),
-        day_icon_url: url('/images/nbu_icon.jpg'),
-        night_icon_url: url('/images/nbu_icon.jpg'),
+        day_icon_url: url('/images/nbu_icon.png'),
+        night_icon_url: url('/images/nbu_icon.png'),
         app_store_url: 'https://itunes.apple.com/us/app/cameron-grey-never-bout-us-vr/id1104816970',
       },
 

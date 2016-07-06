@@ -10,6 +10,26 @@ end
 get '/data.json' do
   {
     work: [
+      # Never Bout Us
+      {
+        title: 'Never Bout Us',
+        short_title: 'Never Bout Us',
+        index_title: 'Never Bout Us',
+        day_title_position: {
+          iphone: {x: 0.96, y: 0.06},
+        },
+        night_title_position: {
+          iphone: {x: 0.89, y: 0.11},
+        },
+        day_description: "We worked with artist Cameron Grey to create an immersive 360 video for the song \"Never Bout Us\". The audience follows Cameron as he relives the memories of a brutal breakup. We also designed the website, app, social media, and press materials to accompany the song and video release. Included in this was a series of limited-run boxes that contained a custom-branded VR viewer, thank you note, production credits, and 1-of-a-kind instant photos from the video shoot. Cameron then hand-wrote the lyrics inside every box, ensuring that each one was unique.",
+        night_description: "During the filming of Never Bout Us, the actors really pushed themselves to create a tense and realistic fight. Between the yelling and the broken glass, we attracted the attention of people in the building above us. At one point, someone frantically came running down to the basement because they \"thought someone was getting murdered\". They were surprised and relieved to see our full production team set up filming a scene.",
+        day_photo_url: url('/images/nbu_day.jpg'),
+        night_photo_url: url('/images/nbu_night.jpg'),
+        day_icon_url: url('/images/nbu_icon.jpg'),
+        night_icon_url: url('/images/nbu_icon.jpg'),
+        app_store_url: 'https://itunes.apple.com/us/app/cameron-grey-never-bout-us-vr/id1104816970',
+      },
+
       # VR Love Letters
       {
         title: 'VR Love Letters',
@@ -27,7 +47,7 @@ get '/data.json' do
         night_photo_url: url('/images/vrll_night.jpg'),
         day_icon_url: url('/images/vrll_icon.jpg'),
         night_icon_url: url('/images/vrll_icon.jpg'),
-        website_url: 'http://www.vrloveletters.com',
+        app_store_url: 'https://itunes.apple.com/us/app/vr-love-letters/id1116574027',
       },
 
       # Role
@@ -47,7 +67,7 @@ get '/data.json' do
         night_photo_url: url('/images/role_night.jpg'),
         day_icon_url: url('/images/role_icon.jpg'),
         night_icon_url: url('/images/role_icon.jpg'),
-        app_store_url: 'https://itunes.apple.com/us/app/role-a-role-playing-party-game/id933599454?mt=8',
+        app_store_url: 'https://itunes.apple.com/us/app/role-a-role-playing-party-game/id933599454',
       },
 
       # Weird Catalog
@@ -87,7 +107,7 @@ get '/data.json' do
         night_photo_url: url('/images/phoodie_night.jpg'),
         day_icon_url: url('/images/phoodie_icon.jpg'),
         night_icon_url: url('/images/phoodie_icon.jpg'),
-        app_store_url: 'https://itunes.apple.com/us/app/phoodie/id990159611?ls=1&mt=8',
+        app_store_url: 'https://itunes.apple.com/us/app/phoodie/id990159611',
       },
     ],
     team: [

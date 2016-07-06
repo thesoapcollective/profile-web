@@ -16,7 +16,7 @@ get '/data.json' do
         short_title: 'Never Bout Us',
         index_title: 'Never Bout Us',
         day_title_position: {
-          iphone: {x: 0.06, y: 0.93},
+          iphone: {x: 0.06, y: 0.94},
         },
         night_title_position: {
           iphone: {x: 0.11, y: 0.89},
